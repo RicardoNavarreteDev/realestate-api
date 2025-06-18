@@ -39,12 +39,15 @@ Se implementó una prueba básica que valida que el endpoint principal (/api/inm
 
 🧠 Preguntas Finales
 📌 ¿Qué importancia tiene probar en múltiples entornos de Node.js?
+
 Es fundamental para asegurar que la aplicación se comporte correctamente en diferentes versiones del entorno. Esto reduce riesgos de errores en producción, sobre todo si no controlas la versión exacta de Node.js que se usará en el entorno final.
 
 💡 ¿Por qué es importante validar la salida de una API desde un workflow?
+
 Porque automatiza la revisión del comportamiento funcional del sistema. Permite detectar problemas antes de que el código llegue a producción, manteniendo la calidad y reduciendo tiempos de validación manual.
 
 🚀 ¿Qué pasos podrías agregar si fueras a hacer un despliegue a producción?
+
 Validación de código con herramientas estáticas (linting, análisis de seguridad).
 
 Pruebas de integración y pruebas end-to-end.
@@ -60,6 +63,7 @@ Notificaciones de estado del pipeline (por Slack, correo, etc.).
 Rollback automático en caso de fallas.
 
 🛠️ ¿Qué limitaciones tiene GitHub Actions y cómo las enfrentarías?
+
 Tiempo limitado de ejecución en cuentas gratuitas: puede resolverse usando runners auto-hospedados.
 
 No se ejecutan secretos en PRs de forks: se recomienda configurar variables protegidas y revisar manualmente si es necesario.
@@ -69,6 +73,7 @@ Dependencia de red o servicios externos: usar mocks o ambientes controlados para
 Tiempo de espera ocioso por pasos lentos: optimizar dependencias, dividir workflows en jobs más rápidos o paralelos.
 
 🧩 Conclusión
+
 A lo largo del desarrollo de este proyecto, se integraron prácticas reales de DevOps y CI/CD que mejoran significativamente la calidad del código y su preparación para entornos reales. Se automatizó el proceso de testing, se identificaron y resolvieron errores en distintas versiones de Node.js, y se establecieron bases para futuros despliegues continuos.
 
 El resultado es una API más robusta, segura y preparada para crecer.
