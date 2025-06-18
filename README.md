@@ -38,6 +38,8 @@ Node.js 18.x pasó correctamente las pruebas.
 Se implementó una prueba básica que valida que el endpoint principal (/api/inmuebles) responda correctamente y devuelva una lista de inmuebles. Esta prueba corre automáticamente en cada ejecución del workflow, garantizando que la API siempre funcione como se espera.
 
 🧠 Preguntas Finales
+
+
 📌 ¿Qué importancia tiene probar en múltiples entornos de Node.js?
 
 Es fundamental para asegurar que la aplicación se comporte correctamente en diferentes versiones del entorno. Esto reduce riesgos de errores en producción, sobre todo si no controlas la versión exacta de Node.js que se usará en el entorno final.
