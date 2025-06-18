@@ -77,5 +77,3 @@ Tiempo de espera ocioso por pasos lentos: optimizar dependencias, dividir workfl
 🧩 Conclusión
 
 A lo largo del desarrollo de este proyecto, se integraron prácticas reales de DevOps y CI/CD que mejoran significativamente la calidad del código y su preparación para entornos reales. Se automatizó el proceso de testing, se identificaron y resolvieron errores en distintas versiones de Node.js, y se establecieron bases para futuros despliegues continuos.
-
-El resultado es una API más robusta, segura y preparada para crecer.
